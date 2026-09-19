@@ -11,14 +11,17 @@ The application is distributed as a closed-source Windows executable.
 ## Features
 
 - Keeps four source libraries isolated in their own tabs and datasets
+- Ships as a standalone Windows executable with its own Node.js runtime
 - Decodes the live PFS catalog's Base64 download URLs
 - Decrypts exFAT source links locally
 - Parses Backport / Standard / DLC / Fix builds per post
 - Source-specific, combinable platform/format/content/firmware filters
 - One card per game with merged PFS, LZ4, FPKG, DLC, and backport variants
+- Optional separate cards for PFS, LZ4, and FPKG releases
 - Expanded search across title IDs, releases, firmware, credits, and hosts
 - Per-source refresh with partial-refresh protection and automatic backups
 - Persistent favourites, theme, page size, and filter selections
+- Working light and dark themes plus per-source JSON export
 - Progressive View All rendering for large libraries
 - Source health and application-data access in Settings
 
