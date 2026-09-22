@@ -31,6 +31,15 @@ The application is distributed as a closed-source Windows executable.
 
 Download the latest Windows build from [Releases](https://github.com/kerrdec97/Game-Catalogue/releases). The ZIP package is recommended because it includes the application and its accompanying legal notices.
 
+### v0.0.3 maintenance update
+
+- Improved exFAT cover delivery and image-format compatibility, including existing saved libraries.
+- Added alternate image delivery when a cover request fails.
+- Removed the DLPS scraper's mandatory full crawl of the auxiliary DownloadGamePS3 site. Unavailable auxiliary pages retain their original links.
+- Failed or blocked DLPS pages now stop the refresh without replacing the saved catalogue and report an actionable error.
+
+**DLPS updates are underway.** This release includes refresh-handling improvements, with further DLPS update work in progress. See the [release notes](https://github.com/kerrdec97/Game-Catalogue/releases/tag/v0.0.3).
+
 ## Licence, privacy, and notices
 
 Game Catalogue is proprietary software licensed for personal, non-commercial use. Redistribution, modification, and reverse engineering are prohibited except where applicable law permits.
