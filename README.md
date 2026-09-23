@@ -23,6 +23,7 @@ The application is distributed as a closed-source Windows executable.
 - Persistent favourites, theme, page size, and filter selections
 - Working light and dark themes plus per-source JSON export
 - Progressive View All rendering for large libraries
+- Numbered pages return the game grid to the top; View All keeps your place while loading more
 - Source health and application-data access in Settings
 
 ---
@@ -30,6 +31,13 @@ The application is distributed as a closed-source Windows executable.
 ## Download
 
 Download the latest Windows build from [Releases](https://github.com/kerrdec97/Game-Catalogue/releases). The ZIP package is recommended because it includes the application and its accompanying legal notices.
+
+### v0.0.4 pagination update
+
+- Changing numbered results pages now starts at the top of the new page in every catalogue tab.
+- View All's Load More action retains your scroll position.
+
+See the [v0.0.4 release notes](https://github.com/kerrdec97/Game-Catalogue/releases/tag/v0.0.4).
 
 ### v0.0.3 maintenance update
 
