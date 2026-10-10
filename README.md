@@ -12,7 +12,7 @@ The application is distributed as a closed-source Windows executable.
 
 - Keeps four source libraries isolated in their own tabs and datasets
 - Ships as a standalone Windows executable with its own Node.js runtime
-- Decodes the live PFS catalog's Base64 download URLs
+- Fetches and decodes Base64 download URLs from the live PFS catalogue at catalog.gfs-dlps.workers.dev
 - Decrypts exFAT source links locally
 - Parses Backport / Standard / DLC / Fix builds per post
 - Source-specific, combinable platform/format/content/firmware filters
@@ -31,6 +31,13 @@ The application is distributed as a closed-source Windows executable.
 ## Download
 
 Download the latest Windows build from [Releases](https://github.com/kerrdec97/Game-Catalogue/releases). The ZIP package is recommended because it includes the application and its accompanying legal notices.
+
+### v0.0.5 PFS source update
+
+- PFS catalogue now fetches from catalog.gfs-dlps.workers.dev.
+- Existing libraries continue to work; a refresh picks up the new source automatically.
+
+See the [v0.0.5 release notes](https://github.com/kerrdec97/Game-Catalogue/releases/tag/v0.0.5).
 
 ### v0.0.4 pagination update
 

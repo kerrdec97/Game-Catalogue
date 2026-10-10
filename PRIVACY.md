@@ -24,7 +24,7 @@ the application may connect directly to independent services, including:
 
 - DLPSGame and DownloadGamePS3 catalogue endpoints;
 - SUPERPSX catalogue endpoints;
-- the PFS/LZ4/FPKG catalogue service;
+- the PFS/LZ4/FPKG catalogue service at catalog.gfs-dlps.workers.dev;
 - the Pippo exFAT catalogue on GitHub Pages or GitHub raw content;
 - image hosts and the wsrv.nl image proxy referenced by catalogue data;
 - Google Fonts for the Inter typeface; and
